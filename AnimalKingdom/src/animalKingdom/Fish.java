@@ -11,6 +11,11 @@ public class Fish extends Animal {
     }
 
     @Override
+    public int getYear() {
+        return year;
+    }
+
+    @Override
     public String move() {
         return "swim";
     }

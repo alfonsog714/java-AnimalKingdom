@@ -19,11 +19,18 @@ public abstract class Animal {
 
     public abstract String breath();
 
+    public abstract int getYear();
+
     public abstract String reproduce();
 
     // Regular Methods
     public void eat(String food) {
         System.out.println("The " + this.name + "eats " + food);
+    }
+
+    @Override
+    public String toString() {
+        return "Animal{" + "name=" + name + '\'' + ", id=" + Id + '\'' + "year=" + year + "}";
     }
 
 }

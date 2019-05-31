@@ -11,6 +11,11 @@ public class Mammal extends Animal {
     }
 
     @Override
+    public int getYear() {
+        return year;
+    }
+
+    @Override
     public String move() {
         return "walk";
     }
